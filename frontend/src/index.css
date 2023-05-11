@@ -1,0 +1,173 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: sans-serif;
+ 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.info {
+
+ 
+  font-size: 25px;
+  margin-left: 0;
+}
+
+.carcard {
+ 
+  display: flex;
+ 
+  justify-content: space-around;
+  margin-bottom: 20px;
+ 
+}
+
+
+.shortable{
+ display: flex;
+ 
+ margin-bottom: 20px;
+ margin-left:100px;
+ font-size: large;
+ width: 90%;
+
+}
+
+table {
+  border-spacing: 140px 15px;
+}
+
+.line {
+  height:2px;
+  background: black;
+  width: 700px;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.btn {
+  
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn1 {
+
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 0px;
+
+  margin-left: 70px;
+}
+
+.btn2 {
+
+  background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 70px;
+    
+}
+
+.details{
+  display: flex;
+}
+
+.moreinfo{
+  display: flex;
+  flex-direction: column;
+}
+
+.modelandnumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+ 
+}
+
+.capcolorcost{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.bookbtn {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.details{
+  margin:40px;
+}
+
+.twobtn {
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+.bookform {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+
+.alldetails{
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.bookformdetails {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: column;
+  font-size: larger;
+  height: 50vh;
+  width: 40vw;
+  line-height: 10vh;
+}
+
+.bookip {
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+  width: 150px;
+}
+
